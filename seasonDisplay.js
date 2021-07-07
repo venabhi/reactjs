@@ -1,4 +1,5 @@
 import React from "react";
+import "./sd.css";
 
 //  we can refactor the terinary exp
 const SeasonConfig = {
@@ -27,10 +28,10 @@ const SeasonDisplay = (props) => {
   //   const text = Season === "winter" ? "it is chilly" : "lets hit the beach";
   //   const icon = season === "winter" ? "snowflake" : "sun";
   return (
-    <div>
-      <i className={`${icon} icon`} />
+    <div className={`sd ${Season}`}>
+      <i className={` massive ${icon} icon`} />
       <h1>{text}</h1>
-      <i className={`${icon}icon`} />
+      <i className={` massive ${icon}icon`} />
     </div>
   );
 };
