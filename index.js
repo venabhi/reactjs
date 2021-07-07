@@ -1,6 +1,35 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+// import React from "react";
+// import ReactDom from "react-dom";
+
+// class App extends React.Component {
+//   constructor(props) {
+//     super(props);
+//     this.state={
+//       lat:null,
+//       errMessage:''
+//     };
+
+//   window.navigator.geolocation.getCurrentPosition(
+//     position => {
+//       this.setState({lat:position.coords.latitude})
+//     },
+//     err => {
+//       this.setState(errorMessage.err.message)
+//     }
+
+//   );
+// }
+
+//   render() {
+
+//   }
+
+// }
+// ReactDOM.render( <App/>,)
+
 //  to get the current location we need to call the api of geolocatio site
 //  we can configure the locationj properties and re-render the app
 //  using the fun we cant re-render the current app the option is class method
