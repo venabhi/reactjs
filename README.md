@@ -68,3 +68,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# life-cycle-methods
+life cycle methods are used to make the code clean
+1.componentDidMount
+COMPONENTdIDmOUNT WILL HELP TO call the api or get the data
+componentDidUpdate will help to update the component whenevert user call the api or look for other properties 
+componentWillUnmount = it will remore the mouth aafter use simply clean
+ 
