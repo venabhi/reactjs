@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import seasonDisplay from "./seasonDisplay";
+import "semantic-ui-css/semantic.min.css";
 
 class App extends React.Component {
   // we can  refactor the state intialisation much better using state do not need constructor
@@ -28,3 +29,5 @@ class App extends React.Component {
     }
   }
 }
+
+ReactDOM.render(<App />, document.querySelector("#root"));
